@@ -1,0 +1,124 @@
+
+.aver{
+   background-image: url(../pagina-naruto/img-2/naru.jpg);
+}
+
+
+
+.caratula{
+  /*justify-content: space-between;*/
+  display: flex;
+  width: 220px;
+  height: 309px;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: url(../imagen/naruto3y.jpg);
+  
+}
+
+.img-1{
+
+  display: flex;
+  width: 220px;
+  height: 309px;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: url(../imagen/image2.png);
+}
+
+.img-2{
+
+  display: flex;
+  width: 220px;
+  height: 309px;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: url(../imagen/dead.jpg);
+}
+
+
+.img-3{
+
+  display: flex;
+  width: 220px;
+  height: 309px;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: url(../pagina-naruto/img-2/naruto2.jpg);
+}
+.img-4{
+
+  display: flex;
+  width: 220px;
+  height: 309px;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: url(../imagen/61J6FAV-38L._AC_.jpg);
+}
+.img-5{
+
+  display: flex;
+  width: 220px;
+  height: 309px;
+  margin: 5px;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-image: url(../imagen/pecados2.png);
+}
+
+/*efecto trasparente */
+
+
+.enlaces-fondo{
+  width: 220px;
+  height: 309px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: rgba(31,31,31, 0.9);
+  -webkit-transition:opacity 0.2s;
+  opacity: 0;
+  
+}
+.prueba {
+  width: 220px;
+  height: 309px;
+  display: flex;
+  display: inline-block;
+  overflow: hidden;
+}
+
+
+.caratula:hover .enlaces-fondo{
+  opacity: 1;
+}
+
+.img-1:hover .enlaces-fondo{
+	opacity: 1;
+}
+
+.img-2:hover .enlaces-fondo{
+	opacity: 1;
+}
+
+.img-3:hover .enlaces-fondo{
+	opacity: 1;
+}
+
+.img-4:hover .enlaces-fondo{
+	opacity: 1;
+}
+
+.img-5:hover .enlaces-fondo{
+	opacity: 1;
+}

@@ -1,0 +1,41 @@
+
+@font-face{
+  font-family: Neu;
+  src:url(../font/Neu.otf);
+}
+@font-face{
+  font-family: gaty;
+  src:url(../font/gaty.ttf);
+}
+
+/* LETRAS DEL H1*/
+h1{
+  border: white 2px;
+  color: grey;
+  font-family: Neu;
+  font-size:40px;
+  text-align: center;
+}
+.lista li a{
+	font-family: Neu;
+	color: grey;
+	font-size: 29px;
+}
+
+.h2-aside{
+  margin: 4px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-family: Neu;
+  letter-spacing: 3px; 
+
+}
+
+.descriccion{
+  margin-bottom: 1.6em;
+  line-height: 2rem;
+  font-family: gaty;
+  margin: 20px;
+  font-size: 23px;
+}

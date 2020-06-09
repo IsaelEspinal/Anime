@@ -1,0 +1,153 @@
+
+@media screen (max-width: 767px){
+
+  .aside{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background: grey;
+  /*  padding: 4rem 0;*/
+    text-align: center;
+   /* margin-top: 6rem;*/
+    white-space: nowrap;
+
+  }
+  /*configuracion de header ------------------------------------------------------------------------------------*/
+
+  .menu{
+    display: block;
+    cursor: pointer;
+
+  }
+
+  .lista{
+    display: none;
+  }
+  .lista.show{
+    display: block;
+  }
+  .lista li{
+    display: block;
+  }
+
+  .lista li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    
+
+  }
+
+  .navegador{
+    width: 100%;
+    margin-top: 1em;
+  }
+  .logo-nav-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    letter-spacing: 5px;
+    font-size: 1.0em;
+  }
+
+/*otra secion de bar-menu -------------------------------------------------------------------------------------*/
+
+.contenedor-1{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.bar-img{
+  margin: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.main{
+
+  display: block;
+
+}
+
+.caratula{
+  margin: auto;
+  margin-bottom: 9px;
+  display: block;
+  letter-spacing: center;
+}
+
+.img-1{
+  margin: auto;
+  margin-bottom: 9px;
+  display: block;
+  letter-spacing: center;
+}
+
+.img-2{
+  margin: auto;
+  margin-bottom: 9px;
+  display: block;
+  letter-spacing: center;
+}
+.img-3{
+  margin: auto;
+  margin-bottom: 9px;
+  display: block;
+  letter-spacing: center;
+}
+.img-4{
+  margin: auto;
+  margin-bottom: 9px;
+  display: block;
+  letter-spacing: center;
+}
+.img-5{
+  margin: auto;
+  margin-bottom: 9px;
+  display: block;
+  letter-spacing: center;
+}
+
+img{
+  margin: auto;
+  display: block;
+   
+}
+
+
+/*--------------------------------------------------------------------PAGINA DE INFORMACION-------------------------------------------*/
+
+
+
+.contenedor-principal{
+  width: 70%;
+  margin: auto;
+ 
+}
+
+.main-info{
+  padding: 20px;
+  margin: 20px;
+  display: block;*/
+
+
+}
+.aside{
+  width: 70%;
+  overflow: hidden;
+  display: flex;
+  display: block;
+  letter-spacing: center;
+}
+.aver{
+  width: 100%;
+  height: 150px;
+}
+
+
+}
